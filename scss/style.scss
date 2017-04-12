@@ -8,6 +8,9 @@ body {
   background-image: url("../img/bg.jpg");
 }
 #header {
+  width: 100%;
+  position: fixed;
+  top: 0;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -26,6 +29,8 @@ body {
   left: 0;
 }
 nav {
+  position: fixed;
+  top: 75px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -35,6 +40,11 @@ nav {
 }
 .nav-item:hover {
   color: #C75431;
+}
+#content {
+  padding-top: 125px;
+  width: 60%;
+  margin: 0 auto;
 }
 #footer {
   position: fixed;
